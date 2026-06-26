@@ -8,8 +8,6 @@ export default eveChannel({
     // Lets the eve TUI and your Vercel deployments reach the deployed agent.
     vercelOidc(),
     // This placeholder will not allow browser requests in production.
-    // Replace it with your app's auth provider, like Auth.js or Clerk,
-    // or use none() for a public demo.
     placeholderAuth(),
   ],
 });
